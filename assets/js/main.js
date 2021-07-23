@@ -730,4 +730,9 @@
       })
     });
   })(jQuery);
-  
+$('.menu').on('click', () => {
+    $('.menu').removeClass('active')
+    $('.overlay').removeClass('active')
+    $('.header-bar').removeClass('active')
+
+})
